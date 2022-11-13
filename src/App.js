@@ -9,6 +9,7 @@ function App() {
       <header className="App-header">
          <b> Learn React</b>
           <p>React Redux without redux-toolkit In functional components</p>
+          <h3>Modified Count Value is:{stateCount.count}</h3>
           <button onClick={()=>dispatch(incrementFn())}> Increment </button>
           <button onClick={()=>dispatch(decrementFn())}> Decrement</button>
           <button onClick={()=>dispatch(multipleByNumFn(5))}> Multiply by 5</button>
